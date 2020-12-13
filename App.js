@@ -1,13 +1,13 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import SquareScreen from './src/screens/SquareScreen.js'
+import TextScreen from './src/screens/TextScreen'
 
 const navigator = createStackNavigator({
-  Square: SquareScreen
+  Text: TextScreen
 }, {
-  initialRouteName: 'Square',
+  initialRouteName: 'Text',
   defaultNavigationOptions: {
-    title: 'Color Square App',
+    title: 'Counter App',
     headerTitleStyle: { alignSelf: 'center' }
   }
 });
